@@ -80,17 +80,12 @@ img {
 }
 
 .header {
-    background-color: #F5DEB3;
+    background-color: lightgray;
     overflow: hidden;
-    border-style: solid;
-    border-width: 1px;
-    border-color: darkgray;
 }
 
-.title {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.search {
+    list-style-type: none;
 }
 
 .nav {
@@ -104,26 +99,54 @@ img {
     text-decoration: none;
 }
 
-.nav a:hover,
-.nav a:focus,
-.nav a:active,
-.nav .nav-current {
-    background-color: #808080;
-    color: white;
-    border-width: 1px;
-    border-color: black;
+.nav a,
+.nav a:link,
+.nav a:visited{
+    display: block;
+    padding: 0.5em 10px;
 }
 
-.subtitle {
+.nav-btn {
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    
+    background-image: url(images/toggle.svg)no-repeat 0 0;
+    
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.billboard {
     text-align: center;
-    background-color: #FFF8DC;
+    padding-top: 8em;
+    background-image: url("http://placehold.it/1920x1080");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+}
+
+.headline {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.subhead {
+    text-align: center;
+}
+
+.features {
+    text-align: center;
 }
 
 .footer {
-    background-color: #F5DEB3;
-    border-style: solid;
-    border-width: 1px;
-    border-color: darkgray;
+    background-color: lightgray;
 }
 
 .footer ul a::after {
@@ -134,30 +157,8 @@ img {
     content: none;
 }
 
-img {
-    border-width: 2px;
-    border-color: black;
-}
-
-h3 {
-    border-bottom: solid;
-    border-width: thin;
-}
-
-.sectionlight {
-    background-color: #efefef;
-}
-
-.sectionmedium {
-    background-color:#FFF8DC;
-}
-
 label {
     display: block;
-}
-
-input + label {
-    display: inline-block;
 }
 
 .signup {
@@ -167,6 +168,12 @@ input + label {
 .button {
     display:inline-block;
     font-size: 1.5em;
+    padding: .5em;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: .25em;
 }
 
 .button-pos {
@@ -191,6 +198,41 @@ form {
 .radio {
     white-space: nowrap;
 }
+
+@media only screen and (min-width: 20em) {
+    
+      .nav li {
+        display: inline-block;
+    }
+    
+    .nav{
+        text-align: center; 
+    } 
+    
+    .title {
+        text-align: center;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 40em){
+
+    .nav{
+        text-align: left; 
+    }   
+    
+    .bottom-nav {
+    text-align: right;
+    }
+    
+    .copyright {
+        text-align: left;
+    }
+}
+
 
 @media only screen and (min-width: 20em) {
     
