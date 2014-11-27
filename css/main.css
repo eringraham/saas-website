@@ -112,6 +112,10 @@ img {
     border-color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 .billboard {
     text-align: center;
     padding-top: 8em;
