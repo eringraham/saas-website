@@ -84,39 +84,32 @@ img {
     overflow: hidden;
 }
 
-.search {
-    list-style-type: none;
+.title {
+    text-align: left;
+    margin: 0;
+    padding: 0;
 }
 
 .nav {
     padding: 0;
     list-style-type: none; 
-    color: black;   
+    color: black; 
 }
 
 .nav a {
     display: block;
     text-decoration: none;
+    text-align: right;
 }
 
-.nav a,
-.nav a:link,
-.nav a:visited{
-    display: block;
-    padding: 0.5em 10px;
-}
-
-.nav-btn {
-    height: 40px;
-    overflow: hidden;
-    position: absolute;
-    right: 20px;
-    width: 40px;
-    
-    background-image: url(images/toggle.svg)no-repeat 0 0;
-    
-    text-indent: 100%;
-    white-space: nowrap;
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current {
+    background-color: #808080;
+    color: white;
+    border-width: 1px;
+    border-color: black;
 }
 
 .billboard {
@@ -135,6 +128,13 @@ img {
 
 .about {
     text-align: center;
+    max-width: 35em;
+    margin: 0 auto;
+}
+
+.power {
+    max-width: 25em;
+    margin: 0 auto;
 }
 
 .subhead {
@@ -167,8 +167,8 @@ label {
 
 .button {
     display:inline-block;
-    font-size: 1.5em;
-    padding: .5em;
+    font-size: 1em;
+    padding: 1em;
     background-color: white;
     border: solid;
     border-color: black;
@@ -199,6 +199,21 @@ form {
     white-space: nowrap;
 }
 
+@media only screen and (min-width: 10em){
+
+    .nav{
+        text-align: center; 
+    }   
+    
+    .bottom-nav {
+    text-align: right;
+    }
+    
+    .copyright {
+        text-align: left;
+    }
+}
+
 @media only screen and (min-width: 20em) {
     
       .nav li {
@@ -221,42 +236,7 @@ form {
 @media only screen and (min-width: 40em){
 
     .nav{
-        text-align: left; 
-    }   
-    
-    .bottom-nav {
-    text-align: right;
-    }
-    
-    .copyright {
-        text-align: left;
-    }
-}
-
-
-@media only screen and (min-width: 20em) {
-    
-      .nav li {
-        display: inline-block;
-    }
-    
-    .nav{
         text-align: center; 
-    } 
-    
-    .title {
-        text-align: center;
-    }
-    
-    .copyright {
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 40em){
-
-    .nav{
-        text-align: left; 
     }   
     
     .bottom-nav {
@@ -268,21 +248,22 @@ form {
     }
 }
 
-@media only screen and (min-width: 60em) {
-    
-    dl {
-        overflow: hidden;
+@media only screen and (min-width: 60em){
+
+    .nav{
+        text-align: right; 
     }
     
-    dt {
-        float: left;
-        clear: left;
-        width: 8rem;
+    .bottom-nav {
+    text-align: right;
     }
     
-    dd {
-        float: left;
-        margin: 0;
-        padding: 0;
+    .copyright {
+        text-align: left;
     }
 }
+
+
+
+
+
