@@ -51,7 +51,7 @@ a:active {
 }
 
 a:focus {
-    outline: 3px solid #000;
+    outline: 3px solid #60c7d0;
 }
 
 .skip-links {
@@ -118,6 +118,7 @@ img {
     border-color: black;
 }
 
+.nav,
 .nav a:visited {
     color:gray;
 }
@@ -128,7 +129,7 @@ a {
 
 .billboard {
     text-align: center;
-    padding-top: 8em;
+    padding-top: 6em;
     background-image: url(images/sanfran.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,6 +139,8 @@ a {
 
 .headline {
     text-align: center;
+    color: #60c7d0;
+    font-weight: 500;
 }
 
 .about {
@@ -187,10 +190,10 @@ label {
     display:inline-block;
     font-size: 1em;
     padding: 1em;
-    background-color: white;
     border: solid;
-    border-color: black;
-    border-width: 1px;
+    background-color: white;
+    border-color: white;
+    border-width: 8px;
     border-radius: .25em;
 }
 

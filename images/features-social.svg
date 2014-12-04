@@ -4,14 +4,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 213 213" enable-background="new 0 0 213 213" xml:space="preserve">
 <rect x="0.5" y="0.5" fill="#FFFFFF" width="212" height="212"/>
-<text transform="matrix(1 0 0 1 54.4894 40.0662)"><tspan x="0" y="0" fill="#60C7D0" font-family="'Avenir-Light'" font-size="29.3931">SOCIAL</tspan><tspan x="-46.6" y="31.3" fill="#60C7D0" font-family="'Avenir-Light'" font-size="29.3931">INTEGRATION</tspan></text>
-<rect x="24.6" y="90.4" fill="#FFFFFF" width="163.7" height="99"/>
 <g>
-	<ellipse fill="#A7A9AC" cx="125.5" cy="129" rx="35.5" ry="22.5"/>
-	<polygon fill="#A7A9AC" points="157,139.4 166.9,151.5 144,148.2 	"/>
+	<text transform="matrix(1 0 0 1 80.1344 40.0662)"><tspan x="0" y="0" fill="#60C7D0" font-family="'Avenir-Light'" font-size="14.9003">SOCIAL</tspan><tspan x="-23.6" y="17.9" fill="#60C7D0" font-family="'Avenir-Light'" font-size="14.9003">INTEGRATION</tspan></text>
 </g>
 <g>
-	<ellipse fill="#60C7D0" cx="85.9" cy="146" rx="35.5" ry="22.5"/>
-	<polygon fill="#60C7D0" points="54.5,156.4 44.5,168.5 67.4,165.2 	"/>
+	<ellipse fill="#A7A9AC" cx="126.2" cy="106" rx="35.5" ry="22.5"/>
+	<polygon fill="#A7A9AC" points="157.7,116.4 167.7,128.5 144.8,125.2 	"/>
+</g>
+<g>
+	<ellipse fill="#60C7D0" cx="86.7" cy="123" rx="35.5" ry="22.5"/>
+	<polygon fill="#60C7D0" points="55.2,133.4 45.2,145.5 68.1,142.2 	"/>
 </g>
 </svg>
