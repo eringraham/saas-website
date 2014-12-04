@@ -74,13 +74,19 @@ a:focus {
     top: 0;
 }
 
+.logo {
+    height: 4.5em;
+    width: inherit;
+    padding: 1em;
+}
+
 img {
   display: block;
   width: 100%;
 }
 
 .header {
-    background-color: lightgray;
+    background-color: #e6ecd9;
     overflow: hidden;
 }
 
@@ -106,10 +112,14 @@ img {
 .nav a:focus,
 .nav a:active,
 .nav .nav-current {
-    background-color: #808080;
+    background-color: #60c7d0;
     color: white;
     border-width: 1px;
     border-color: black;
+}
+
+.nav a:visited {
+    color:gray;
 }
 
 a {
@@ -119,7 +129,7 @@ a {
 .billboard {
     text-align: center;
     padding-top: 8em;
-    background-image: url("http://placehold.it/1920x1080");
+    background-image: url(images/sanfran.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -136,6 +146,10 @@ a {
     margin: 0 auto;
 }
 
+.content-first {
+    background-color: #F0F0F0; 
+}
+
 .power {
     max-width: 25em;
     margin: 0 auto;
@@ -150,7 +164,7 @@ a {
 }
 
 .footer {
-    background-color: lightgray;
+    background-color: #e6ecd9;
 }
 
 .footer ul a::after {
@@ -264,8 +278,10 @@ form {
     
     .copyright {
         text-align: left;
-    }
+    }   
 }
+
+
 
 
 
