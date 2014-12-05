@@ -133,17 +133,27 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 500px;
+    height: 550px;
 }
 
 .price-billboard {
     text-align: center;
-    padding-top: 6em;
+    padding-top: 1em;
     background-image: url(images/pricing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 500px;
+    height: 550px;
+}
+
+.ty-billboard {
+    text-align: center;
+    padding-top: 8.5em;
+    background-image: url(images/sanfran.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 550px;
 }
 
 .headline {
@@ -233,6 +243,9 @@ label {
 form {
     max-width: 35em;
     margin: 0 auto;
+    background-color: #F0F0F0;
+    color: gray;
+    font-weight: 300;
 }
 
 .radio {
