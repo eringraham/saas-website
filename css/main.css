@@ -112,6 +112,7 @@ img {
     display: block;
     text-decoration: none;
     text-align: right;
+    color: gray;
 }
 
 .nav a:hover,
