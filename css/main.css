@@ -162,6 +162,15 @@ a {
     height: 550px;
 }
 
+.start-billboard {
+    text-align: center;
+    background-image: url(images/sanfran.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;   
+}
+
 .ty-p {
     max-width: 24em;
     text-align: center;
@@ -256,16 +265,13 @@ label {
     border-color: gray;
 }
 
-.textbox {
-    height: 15em;
-}
-
 form {
-    max-width: 35em;
+    display:block;
     margin: 0 auto;
-    background-color: #F0F0F0;
-    color: gray;
+    color: black;
     font-weight: 300;
+    max-width: 40em;
+    text-align: center;
 }
 
 .radio {
@@ -304,11 +310,6 @@ form {
     .copyright {
         text-align: center;
     }
-    
-    .ty-p {
-        max-width: 24em;
-        text-align: center;
-    }
 }
 
 @media only screen and (min-width: 40em){
@@ -326,14 +327,8 @@ form {
     }
     
     .logo-wrap {
-        text-align: center;
+        text-align: left;
     }
-    
-    .ty-p {
-        max-width: 24em;
-        text-align: center;
-    }
-
 }
 
 @media only screen and (min-width: 60em){
@@ -348,11 +343,6 @@ form {
     
     .copyright {
         text-align: left;
-    }
-    
-    .ty-p {
-        max-width: 24em;
-        text-align: center;
     }
 }
 
