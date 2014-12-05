@@ -28,6 +28,10 @@ p {
     font-weight: 300;
 }
 
+li {
+    font-weight: 300;
+}
+
 figcaption {
     font-weight: 300;
     color: gray;

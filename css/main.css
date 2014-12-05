@@ -118,7 +118,6 @@ img {
     border-color: black;
 }
 
-.nav,
 .nav a:visited {
     color:gray;
 }
@@ -131,6 +130,16 @@ a {
     text-align: center;
     padding-top: 6em;
     background-image: url(images/sanfran.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+}
+
+.price-billboard {
+    text-align: center;
+    padding-top: 6em;
+    background-image: url(images/pricing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -166,6 +175,11 @@ a {
     text-align: center;
 }
 
+.li-style {
+    list-style-type: none;
+    background-color: #F0F0F0;
+}
+
 .footer {
     background-color: #e6ecd9;
 }
@@ -192,8 +206,8 @@ label {
     padding: 1em;
     border: solid;
     background-color: white;
-    border-color: white;
-    border-width: 8px;
+    border-color: gray;
+    border-width: 2px;
     border-radius: .25em;
 }
 
@@ -261,7 +275,7 @@ form {
     }   
     
     .bottom-nav {
-    text-align: right;
+        text-align: right;
     }
     
     .copyright {
