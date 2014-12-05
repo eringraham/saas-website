@@ -180,6 +180,11 @@ a {
     background-color: #F0F0F0;
 }
 
+.faq {
+    text-align: center;
+    color: gray;
+}
+
 .footer {
     background-color: #e6ecd9;
 }
