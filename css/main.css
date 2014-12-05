@@ -77,7 +77,8 @@ a:focus {
 .logo {
     height: 4.5em;
     width: inherit;
-    padding: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
 }
 
 img {
