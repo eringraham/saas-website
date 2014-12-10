@@ -30,7 +30,7 @@ p {
 
 dl {
     font-weight: 300;
-    line-height: 1em;
+    line-height: auto;
 }
 
 figcaption {
