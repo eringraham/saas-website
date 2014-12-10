@@ -28,8 +28,9 @@ p {
     font-weight: 300;
 }
 
-li {
+dl {
     font-weight: 300;
+    line-height: 1em;
 }
 
 figcaption {
@@ -49,17 +50,17 @@ h2, .peta {
   color: gray;
 }
 
-h3, .tera {
-  font-size: 1.4238rem;
-  line-height: 1.0535;
+h3, .mega {
+  font-size: 1.3rem;
+  line-height: 1.333;
   font-weight: 300;
+  color: #60c7d0;
 }
 
 h4, mega {
   font-size: 1.2656rem;
   line-height: 1.3333;
   font-weight: 300;
-  color: #60c7d0;
 }
 
 h5, .mega {
