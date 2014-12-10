@@ -215,6 +215,10 @@ a {
     background-color: #F0F0F0;
 }
 
+li {
+    font-weight: 300;
+}
+
 .faq {
     text-align: center;
     color: gray;
